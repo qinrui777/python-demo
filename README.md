@@ -1,4 +1,4 @@
-#### demo1: Python and Postgres Tutorial with psycopg2
+#### Demo1: Python and Postgres Tutorial with psycopg2
 01. Check psycopg2
 
 ```bash
@@ -79,3 +79,12 @@ user_id -> 2 user_name -> minsu address -> 北京市朝阳区
 user_id -> 3 user_name -> Larry address -> 武汉保利大厦
 ```
 ---
+
+#### Demo2: XlsxWriter demo 
+
+**XlsxWriter demo**
+- 02_XlsxWriter_basic_demo.py
+- 03_XlsxWriter_postgres_demo.py
+- 04_XlsxWriter_chart_demo.py
+
+[Working with Excel Files in Python](http://www.python-excel.org/)
