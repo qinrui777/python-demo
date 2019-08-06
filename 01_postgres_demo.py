@@ -20,14 +20,16 @@ cur = con.cursor()
 cur.execute("select * from users")
 
 rows = cur.fetchall()
+print (rows.__class__)   # type: list
+
 print ("我是中文")
 
 for r in rows:
     # python 3
-    # print (f"user_id {r[0]}")
+    print (f"user_id -> {r[0]} user_name -> {r[1]} address -> {r[3]}")
 
     # python 2
-    print r[0],r[1],r[2],r[3]
+    # print r[0],r[1],r[2],r[3]
 
 #commit the transcation
 con.commit()
@@ -36,4 +38,4 @@ con.commit()
 cur.close()
 
 #close the connection
-cur.close()
+con.close()
